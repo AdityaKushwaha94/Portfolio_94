@@ -1,0 +1,227 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    transition: all 0.5s ease;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #00BFFF;
+  }
+  
+  .home {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .home h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00BFFF;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+  }
+  
+  .home-sci a:hover {
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+  }
+  
+  .btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #00BFFF;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-box:hover {
+    background: #00BFFF;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+  }
+  
+  .about {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #1E1E1E;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .about h2 span {
+    color: #00BFFF;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .skills {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .skills h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .skills h1 span {
+    color: #00BFFF;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .skills-list div {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .skills-list div:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: translateY(-10px);
+  }
+  
+  .skills-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .skills-list p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .skills-list ul {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .skills-list ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .h1-contact {
+    display: flex;
+    font-size: 50px;
+  }
+  
+  .contact:hover {
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+  }
+  
+  .thank {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+  }
